@@ -4,7 +4,7 @@ int main(){
   int num, flag = 0, i, j = 0, k = 0;
   scanf("%d", &num);
   int count[num];
-  char arr[num][10], result[10], ch;
+  char arr[num][100], result[100], ch;
   scanf("%c", &ch);
   for(i=0; i<num; i++){
     while(ch != '\0'){
